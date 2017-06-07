@@ -9,15 +9,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
-        </activity>
-        <activity android:name=".SintomasActivity" />
-        <activity android:name=".FarmacosActivity" />
+        <activity android:name=".MainActivity" />
         <activity
-            android:name=".DetalleActivity"
-            android:label="@string/title_activity_detalle"
-            android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name=".SplashActivity"
+            android:name=".SplashActivity"
             android:screenOrientation="portrait"
             android:theme="@android:style/Theme.NoTitleBar.Fullscreen">
             <intent-filter>
@@ -26,6 +20,13 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".EdadActivity" />
+        <activity android:name=".RemediosActivity" />
+        <activity android:name=".AdultoActivity" />
+        <activity android:name=".JovenesActivity" />
+        <activity android:name=".NinhosActivity" />
+        <activity android:name=".Remedios2Activity" />
+        <activity android:name=".Remedios3Activity"></activity>
     </application>
 
 </manifest>

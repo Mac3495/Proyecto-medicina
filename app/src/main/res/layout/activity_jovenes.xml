@@ -5,29 +5,31 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="com.example.marcelo.proyecto.SintomasActivity">
+    tools:context="com.example.marcelo.proyecto.JovenesActivity">
 
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
-       <LinearLayout
-           android:layout_width="match_parent"
-           android:layout_height="match_parent"
-           android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Tipos de enfermedades"
+                android:textSize="24sp"
+                android:text="DE QUE MANERA PREVENIAN LAS ENFERMEDADES LOS JOVENES"
                 style="@style/cabecera"/>
 
             <ListView
-                android:id="@+id/list_view"
+                android:id="@+id/list_view_jovenes"
                 android:layout_width="match_parent"
                 android:layout_height="412dp">
             </ListView>
 
-       </LinearLayout>
+        </LinearLayout>
     </ScrollView>
+
 </LinearLayout>

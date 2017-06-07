@@ -44,6 +44,6 @@ public class MainActivity extends AppCompatActivity {
     }
 
     void boton (View view){
-        startActivity(new Intent(getApplicationContext(),SintomasActivity.class));
+        startActivity(new Intent(getApplicationContext(),EdadActivity.class));
     }
 }

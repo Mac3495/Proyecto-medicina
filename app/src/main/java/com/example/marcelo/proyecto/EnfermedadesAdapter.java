@@ -49,6 +49,8 @@ public class EnfermedadesAdapter extends ArrayAdapter<Enfermedades> {
         return row;
     }
 
+
+
     static class EnfermedadesHolder{
         ImageView imagen;
         TextView textView;
